@@ -27,11 +27,13 @@
 }
 
 
-.header {
+.head {
   background-color: #fff;
   padding: 15px 0;
   text-align: center;
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 1000;
 }
@@ -44,36 +46,36 @@
   box-sizing: border-box;
 }
 
-.head-icon_def {
+.head-icn_def {
   color: #333;
   float: left;
 }
 
-.head-icon_def:hover {
+.head-icn_def:hover {
   cursor: pointer;
 }
 
-.norm_button {
+.head_btn_pc-tab {
   display: inline-block;
   float: right;
   font-size: 12px;
   padding: 14px 12px;
   -webkit-appearance: none;
   border: none;
-  color: white;
+  color: #fff;
   outline: none;
 }
 
-.top_button:hover {
+.head_btn_pc-tab:hover {
   cursor: pointer;
 }
 
-.humburger {
+.head_btn_sp {
   display: none;
   float: right;
   font-size: 12px;
   height: 43px;
-  width: 65px;
+  width: 60px;
   padding: 10px;
   -webkit-appearance: none;
   border: 1px solid #ddd;
@@ -88,8 +90,9 @@
 
 }
 
-.navigation {
+.navi {
   padding: 250px 0;
+  margin-top: 78px;
   text-align: center;
 }
 
@@ -149,13 +152,13 @@
   margin: 40px auto 0;
 }
 
-.article_li {
+.img_margin {
   margin-left: 100px;
   margin-bottom: 80px;
-  float:left;
+  float: left;
 }
 
-.article_li:hover {
+.img_margin:hover {
   cursor: pointer;
 }
 
@@ -163,17 +166,18 @@
   opacity: .8;
   height: inherit;
   width: inherit;
+  vertical-align: middle;
 }
 
 .on_mouse:hover {
   opacity: 1;
 }
 
-.article_li:nth-child(3n + 1) {
+.img_margin:nth-child(3n + 1) {
   margin-left: 0;
 }
 
-.article_li:nth-child(1n + 4) {
+.img_margin:nth-child(1n + 4) {
   margin-bottom: 0;
 }
 
@@ -232,7 +236,7 @@
 
 .under_word {
   text-align: center;
-  color: white;
+  color: #fff;
   margin-top: 10px
 }
 
@@ -253,7 +257,7 @@
   max-width: 740px;
 }
 
-.icon_padding_kill{
+.icon_padding_kill {
   margin-right: 0;
 }
 
@@ -292,12 +296,12 @@
   margin: 0 auto;
 }
 
-.article_li {
+.img_margin {
   margin: 0;;
-  float:none;
+  float: none;
 }
 
-.article_li:nth-child(3n) {
+.img_margin:nth-child(3n) {
   margin-bottom: 80px;
 }
 
@@ -340,11 +344,11 @@
   padding: 50px 0;
 }
 
-.norm_button {
+.head_btn_pc-tab {
   display: none;
 }
 
-.humburger {
+.head_btn_sp {
   display: inline-block;
 }
 }
