@@ -1,0 +1,350 @@
+/*-----BASIC-----*/
+.gf-raleway {
+  font-family: 'Raleway', 'Lato';
+}
+
+.text_color {
+  color: #333;
+}
+
+.conversion_color {
+  background-color: #74cfae;
+}
+
+.back_gray {
+  background-color: #f2f2f2;
+}
+
+.back_dark-gray {
+  background-color: #4e4e4e;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+
+.header {
+  background-color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.head-icon_def {
+  color: #333;
+  float: left;
+}
+
+.head-icon_def:hover {
+  cursor: pointer;
+}
+
+.norm_button {
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  padding: 14px 12px;
+  -webkit-appearance: none;
+  border: none;
+  color: white;
+  outline: none;
+}
+
+.top_button:hover {
+  cursor: pointer;
+}
+
+.humburger {
+  display: none;
+  float: right;
+  font-size: 12px;
+  height: 43px;
+  width: 65px;
+  padding: 10px;
+  -webkit-appearance: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.under_bar {
+  display: block;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #ddd;
+
+}
+
+.navigation {
+  padding: 250px 0;
+  text-align: center;
+}
+
+.Bolt_top {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae;
+  margin-bottom: 20px;
+}
+
+.Bolt_mini {
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+.main {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.fig {
+  padding: 0 100px;
+  float: left;
+  max-width: 408px;
+}
+
+.main_right-box {
+  float: left;
+}
+
+.main_art_head {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+.main_art_body {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  max-width: 750px;
+  line-height: 25px;
+}
+
+.art_inner_padding {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+.art_top {
+  font-size: 24px;
+}
+
+.art_middle {
+  max-width: 1100px;
+  margin: 40px auto 0;
+}
+
+.article_li {
+  margin-left: 100px;
+  margin-bottom: 80px;
+  float:left;
+}
+
+.article_li:hover {
+  cursor: pointer;
+}
+
+.on_mouse {
+  opacity: .8;
+  height: inherit;
+  width: inherit;
+}
+
+.on_mouse:hover {
+  opacity: 1;
+}
+
+.article_li:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+.article_li:nth-child(1n + 4) {
+  margin-bottom: 0;
+}
+
+.art_bottom {
+  margin: 90px auto 0;
+  max-width: 715px;
+}
+
+.max_edit {
+  max-width: 530px;
+  margin-right: 90px;
+  float: left;
+}
+
+.art_button {
+  border: 0;
+  font-size: 12px;
+  padding: 14px 20px;
+  color: #fff;
+  float: left;
+  outline: 0;
+}
+
+.art_button:hover {
+  cursor: pointer;
+  color: #333;
+}
+
+.sec_inner_padding {
+  padding: 70px 0;
+}
+
+.OUR_SKILL_top {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.sec_margin_edit {
+  max-width: 1028px;
+  margin: 30px auto 20px;
+}
+
+.icon_margin_li {
+  margin-left: 180px;
+  float: left;
+}
+
+.icon_margin_li:hover {
+  cursor: pointer;
+}
+
+.icon_margin_li:first-child {
+  margin-left: 0;
+}
+
+.under_word {
+  text-align: center;
+  color: white;
+  margin-top: 10px
+}
+
+.icon {
+  width: 185px;
+  text-align: center;
+  color:  #74cfae;
+  float: left;
+  padding: 20px 0;
+}
+
+.icon:hover {
+  background-color: #fff;
+}
+
+.icon_padding {
+  padding: 200px 0;
+  max-width: 740px;
+}
+
+.icon_padding_kill{
+  margin-right: 0;
+}
+
+.footer_content_padding {
+  padding: 20px 0 25px 0;
+  color: #fff;
+  float: right;
+}
+
+
+/*-----TAB-----*/
+@media screen and (max-width: 1199px) {
+
+.fig {
+  max-width: inherit;
+  padding: 0 100px;
+  float: none;
+  margin-bottom: 20px;
+}
+
+.main_right-box {
+  float: none;
+}
+
+.main_art_head {
+  font-size: 24px;
+  color: #fff;
+}
+
+.main_art_body {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 25px;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
+.article_li {
+  margin: 0;;
+  float:none;
+}
+
+.article_li:nth-child(3n) {
+  margin-bottom: 80px;
+}
+
+.art_bottom {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.max_edit {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  float: none;
+  text-align: center;
+}
+
+.art_button {
+  float: none;
+}
+
+.icon_margin_li {
+  float: none;
+  margin: 0;
+  margin-bottom: 88px;
+  text-align: center;
+}
+/*-----SP-----*/
+@media screen and (max-width: 766px) {
+.fig {
+  padding: 0;
+}
+
+.icon {
+  text-align: center;
+  float: none;
+  margin: 0 auto;
+  max-width: 395px;
+}
+
+.icon_padding {
+  padding: 50px 0;
+}
+
+.norm_button {
+  display: none;
+}
+
+.humburger {
+  display: inline-block;
+}
+}
