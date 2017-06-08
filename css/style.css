@@ -192,7 +192,7 @@
   float: left;
 }
 
-.art_button {
+.art_btn {
   border: 0;
   font-size: 12px;
   padding: 14px 20px;
@@ -201,7 +201,7 @@
   outline: 0;
 }
 
-.art_button:hover {
+.art_btn:hover {
   cursor: pointer;
   color: #333;
 }
@@ -221,16 +221,16 @@
   margin: 30px auto 20px;
 }
 
-.icon_margin_li {
+.icn_margin {
   margin-left: 180px;
   float: left;
 }
 
-.icon_margin_li:hover {
+.icn_margin:hover {
   cursor: pointer;
 }
 
-.icon_margin_li:first-child {
+.icn_margin:first-child {
   margin-left: 0;
 }
 
@@ -297,7 +297,7 @@
 }
 
 .img_margin {
-  margin: 0;;
+  margin: 0;
   float: none;
 }
 
@@ -317,11 +317,11 @@
   text-align: center;
 }
 
-.art_button {
+.art_btn {
   float: none;
 }
 
-.icon_margin_li {
+.icn_margin {
   float: none;
   margin: 0;
   margin-bottom: 88px;
